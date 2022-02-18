@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="git-remoteFlow1" doc:id="c41f4e67-6420-47a1-b0c9-6bafff30da2e" >
 		<http:listener doc:name="Listener/remote" doc:id="b9677eee-eb16-4a08-a1a7-7f7af69c6971" config-ref="HTTP_Listener_config" path="remote"/>
 		<logger level="INFO" doc:name="Logger" doc:id="ce55fe92-ea14-4dd2-883c-fb718c7c8314" message="**message**"/>
-		<set-payload value="**Dummy git 1**" doc:name="Set Payload" doc:id="0f01e448-846a-493d-9c39-2986ae24299d" />
+		<set-payload value="**Dummy git 2**" doc:name="Set Payload" doc:id="0f01e448-846a-493d-9c39-2986ae24299d" />
 	</flow>
 </mule>
